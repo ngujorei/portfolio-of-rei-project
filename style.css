@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+body {
+  margin: 10px;
+  padding: 0;
+}
+
+/* background */
+
+header {
+  overflow-x: hidden;
+  background-image: url("images/japan.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: -10px -10px 0 -10px;
+  padding-bottom: 100px;
+}
+#about {
+  background-image: url("images/fish.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: -10px -10px 0 -10px;
+  color: #99ff00;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+#skills {
+  background-image: url("images/pink.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: -10px -10px 0 -10px;
+  color: #ff30d2;
+}
+#projects {
+  background-image: url("images/cat.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: -10px -10px 0 -10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #110287;
+}
+#contact {
+  background-image: url("images/arena.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: -10px -10px 0 -10px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+/* navigation */
+nav {
+  text-align: right;
+  padding: 20px;
+  height: 100px;
+  background-color: #9503a2;
+  box-sizing: border-box;
+  margin: -10px -10px 0 -10px;
+}
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+nav a:hover {
+  color: #f300be;
+}
+
+/* information and motivation the first page*/
+.header-content {
+  display: flex;
+  flex-direction: left;
+  align-items: flex-end;
+  font-size: 35px;
+  margin: -10px -10px 0 -10px;
+  margin: 20px;
+}
+.header-content p {
+  box-sizing: border-box;
+  background-color: #9503a244;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+.header-content h1 {
+  box-sizing: border-box;
+  background-color: #9503a244;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500px;
+  font-size: 100px;
+}
+img {
+  width: 650px;
+  height: 800px;
+  object-fit: cover;
+  object-position: top center;
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+.header-content img {
+  gap: 40px;
+  padding: 100px;
+}
+
+/* three p1-3 */
+.p1 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+}
+.p2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500px;
+  font-size: 70px;
+  margin: 10px;
+}
+.p3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+}
+
+/* about area */
+#about {
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
+.content {
+  box-sizing: border-box;
+  background-color: #0080008b;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* skills area */
+#skills {
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
+.motivation {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+}
+.motivation li {
+  background: #ff1ea58e;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  min-height: 100px;
+  margin: 20px;
+  color: white;
+}
+.motivation li:hover {
+  color: #ff0c0c;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+li {
+  padding: 5px;
+}
+
+/* project area link */
+.project {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.project2 {
+  border: 3px solid #110287;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+}
+.project2 img {
+  width: 100%;
+  height: 300px;
+  border-radius: 6px;
+}
+.project2 a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #110287;
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+}
+.project2:hover {
+  border-color: #ff2dd1;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+form {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+/* contact area */
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid #a367b1;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+}
+input[type="submit"] {
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+input[type="submit"] {
+  background-color: #700b8b;
+}
+input[type="submit"]:hover {
+  color: palevioletred;
+  border-color: #ff2dd1;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+label {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+}
+#contact {
+  color: white;
+}
+
+/* the rights reserved */
+footer {
+  text-align: center;
+  padding: 15px;
+  font-family: "Playfair Display", serif;
+  font-weight: 300px;
+  font-size: 25px;
+  background-color: #9503a2;
+  color: white;
+  margin: -10px -10px -10px -10px;
+  cursor: pointer;
+}
+
+/* reposive */
+
+/* laptop 1280px */
+@media (max-width: 1280px) {
+  .header-content img {
+    width: 400px;
+    height: 500px;
+    padding: 60px 40px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .p1 {
+    font-size: 25px;
+  }
+  .p2 {
+    font-size: 55px;
+  }
+  .p3 {
+    font-size: 38px;
+  }
+  nav a {
+    font-size: 25px;
+    margin: 10px;
+  }
+  .project2 {
+    width: 380px;
+  }
+}
+/* macbook 1024px */
+@media (max-width: 1024px) {
+  .header-content img {
+    width: 350px;
+    height: 430px;
+    padding: 40px 30px;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  .p1 {
+    font-size: 20px;
+  }
+  .p2 {
+    font-size: 45px;
+  }
+  .p3 {
+    font-size: 28px;
+  }
+  nav a {
+    font-size: 22px;
+    margin: 8px;
+  }
+  #skills {
+    padding: 80px 0 120px;
+  }
+  .motivation {
+    font-size: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .motivation li {
+    min-height: auto;
+    margin: 10px;
+    padding: 18px;
+  }
+  .project2 {
+    width: 300px;
+  }
+  .project2 img {
+    height: 260px;
+  }
+}
+/* tablet 768px */
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  footer {
+    font-size: 16px;
+    margin: 0;
+  }
+  nav {
+    height: auto;
+    padding: 12px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    margin: 0;
+  }
+  nav a {
+    font-size: 17px;
+    margin: 4px 8px;
+  }
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px 10px;
+  }
+  .header-content img {
+    width: 260px;
+    height: 320px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  .p1 {
+    font-size: 17px;
+    padding: 0 10px;
+  }
+  .p2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .p3 {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  #about,
+  #skills {
+    padding: 50px 15px 80px;
+  }
+  #contact {
+    padding: 40px 15px;
+  }
+  .motivation {
+    font-size: 17px;
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+  .motivation li {
+    min-height: auto;
+    padding: 15px 20px;
+    margin: 8px;
+  }
+  .project {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .project2 {
+    width: 85%;
+  }
+  .project2 img {
+    height: 200px;
+  }
+}
+/* mobile 480px */
+@media (max-width: 480px) {
+  nav a {
+    font-size: 14px;
+    margin: 3px 5px;
+  }
+  .header-content img {
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .p1 {
+    font-size: 14px;
+  }
+  .p2 {
+    font-size: 24px;
+  }
+  .p3 {
+    font-size: 16px;
+  }
+  #about,
+  #skills {
+    padding: 40px 10px 60px;
+  }
+  .motivation {
+    font-size: 14px;
+    padding: 0 8px;
+  }
+  .motivation li {
+    min-height: auto;
+    padding: 12px 16px;
+    margin: 6px;
+  }
+  .project2 {
+    width: 90%;
+  }
+  .project2 img {
+    height: 160px;
+  }
+}
+/* small phone 360px */
+@media (max-width: 360px) {
+  nav a {
+    font-size: 12px;
+    margin: 2px 4px;
+  }
+  .header-content img {
+    width: 160px;
+    height: 200px;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .p1 {
+    font-size: 13px;
+  }
+  .p2 {
+    font-size: 20px;
+  }
+  .p3 {
+    font-size: 14px;
+  }
+  .motivation li {
+    padding: 10px 12px;
+    margin: 5px;
+  }
+}
